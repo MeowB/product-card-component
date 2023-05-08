@@ -1,0 +1,11 @@
+@import 'variables';
+
+body {
+	background-color: $cream;
+	margin: 0;
+	display: flex;
+	align-content: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	min-height: 100vh;
+}
