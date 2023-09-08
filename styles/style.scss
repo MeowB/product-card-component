@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+// COLORS
+// ### Primary
+
+$c-dark-cyan: hsl(158, 36%, 37%);
+$c-cream: hsl(30, 38%, 92%);
+
+// ### Neutral
+
+$c-vry-dark-blue: hsl(212, 21%, 14%);
+$c-dark-grayish-blue: hsl(228, 12%, 48%);
+$c-white: hsl(0, 0%, 100%);
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Fraunces, Montserrat;
+}
+
+body {
+	
+	background-color: $c-cream;
+}
+
+p, button, h3 {
+	font-family: Montserrat;
+}
+
+.card {
+	background-color: $c-white;
+	margin: 15px;
+	border-radius: 10px;
+
+	picture {
+		img {
+			width: 100%;
+			border-radius: 10px 10px 0 0;
+		}
+	}
+
+	.text-block{
+		padding: 20px;
+
+		h3 {
+			font-weight: 500;
+			color: $c-dark-grayish-blue;
+			margin-bottom: 10px;
+			text-transform: uppercase;
+			letter-spacing: 5px;
+			font-size: 18px;
+		}
+
+		h1 {
+			font-size: 32px;
+			margin-bottom: 15px;
+		}
+
+		p {
+			color: $c-dark-grayish-blue;
+			font-size: 14px;
+			line-height: 24px;
+		}
+
+		.prices {
+			display: flex;
+			align-items: center;
+			margin-top: 25px;
+			.new-price{
+				font-size: 32px;
+				color: $c-dark-cyan;
+				margin-right: 20px;
+			}
+			.old-price{
+				font-family: Montserrat;
+				color: $c-dark-grayish-blue;
+				text-decoration: line-through;
+			}
+		}
+	
+
+	}
+
+	button {
+		border-radius: 10px;
+		margin-top: 20px;
+		background-color: $c-dark-cyan;
+		color: $c-white;
+		border: none;
+		padding: 20px;
+		width: 100%;
+	}
+
+}
+
+.attribution {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin: auto;
+}
+
+@media only screen and (min-width: 600px)  {
+	
+}
