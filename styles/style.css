@@ -68,10 +68,51 @@ p, button, h3 {
 }
 
 .attribution {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
-  margin: auto;
+  text-align: center;
+  background-color: #f2ebe3;
+  padding: 10px 0;
+  font-size: 11px;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    display: flex;
+    justify-content: center;
+    /* Horizontal centering */
+    align-items: center;
+    /* Vertical centering */
+    min-height: 100vh;
+    /* Ensure the body covers the full viewport height */
+    margin: 0;
+    background-color: #f2ebe3;
+  }
+
+  .card {
+    display: flex;
+    margin: auto;
+    max-width: 600px;
+  }
+  .card picture {
+    flex: 1;
+  }
+  .card picture img {
+    display: block;
+    height: 100%;
+    width: 300px;
+    border-radius: 10px 0 0 10px;
+  }
+  .card .text-block {
+    flex: 1;
+    border-radius: 0 10px 10px 0;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .card .text-block h3 {
+    font-size: 14px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
