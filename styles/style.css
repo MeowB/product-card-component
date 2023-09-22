@@ -113,6 +113,10 @@ p, button, h3 {
   .card .text-block h3 {
     font-size: 14px;
   }
+  .card .text-block button:hover {
+    cursor: pointer;
+    background-color: #1C232B;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
