@@ -77,13 +77,18 @@ p, button, h3 {
   }
 
   button {
+	font-size: 15px;
     border-radius: 10px;
     margin-top: 20px;
     background-color: $c-dark-cyan;
     color: $c-white;
     border: none;
-    padding: 20px;
+    padding: 15px;
     width: 100%;
+
+	img {
+		margin-right: 8px;
+	}
   }
 }
 

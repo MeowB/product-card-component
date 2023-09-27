@@ -58,13 +58,17 @@ p, button, h3 {
   text-decoration: line-through;
 }
 .card button {
+  font-size: 15px;
   border-radius: 10px;
   margin-top: 20px;
   background-color: #3c8067;
   color: white;
   border: none;
-  padding: 20px;
+  padding: 15px;
   width: 100%;
+}
+.card button img {
+  margin-right: 8px;
 }
 
 .attribution {
